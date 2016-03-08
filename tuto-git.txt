@@ -5,7 +5,7 @@ Première utilisation :
 Après une modification :
 	—naviguer dans le dossier du repository
 	git add -—all
-	git commit « message explicite a propos des modifications apportées »
+	git commit -m « message explicite a propos des modifications apportées »
 	git push
 
 Avant de travailler, récupérer les modifications des autres membres avec :
