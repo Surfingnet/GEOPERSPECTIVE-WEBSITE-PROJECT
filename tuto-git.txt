@@ -1,0 +1,16 @@
+Première utilisation :
+	—naviguer dans le dossier conteneur du repository
+	git clone « adresse dispo sur github »
+
+Après une modification :
+	—naviguer dans le dossier du repository
+	git add -—all
+	git commit « message explicite a propos des modifications apportées »
+	git push
+
+Avant de travailler, récupérer les modifications des autres membres avec :
+	—naviguer dans le dossier du repository
+	git pull
+	(si problème essayer « git pull ‘path to repository’ master »)
+
+note : avant de pull, prendre contact pour s’assurer que les autres ont push si vous travaillez sur les mêmes fichiers qu’eux. Eviter de modifier les mêmes fichiers en même temps autant que possible.
